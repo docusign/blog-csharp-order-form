@@ -28,9 +28,12 @@ The purchaser's name and email is set using the App.config file.
 
 After the purchaser agrees to the order, they'll be asked to pay.
 
-If you're testing with the Stipe payment service, you can use
-one of their test credit card numbers. For example:
-`4242 4242 4242 4242` Additional
+If you're testing with the Stripe payment service, you can use
+one of their test credit card numbers.
+
+For example: `4242 4242 4242 4242` 
+
+Additional
 [test card numbers](https://stripe.com/docs/testing#cards)
 are also available.
 
