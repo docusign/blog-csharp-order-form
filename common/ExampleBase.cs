@@ -56,7 +56,7 @@ namespace eg_01_csharp_jwt
                 Account = GetAccountInfo(authToken);
 
             ApiClient = new ApiClient(Account.BaseUri + "/restapi");
-            expiresIn = DateTime.Now.Millisecond + (authToken.expires_in * 1000);
+            expiresIn = DateTime.Now.Millisecond + ((int)authToken.expires_in * 1000);
         }
 
         private Account GetAccountInfo(OAuth.OAuthToken authToken)
