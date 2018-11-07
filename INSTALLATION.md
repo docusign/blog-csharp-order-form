@@ -67,6 +67,8 @@ To install the template:
 ## Configure the example
 
 Configure the example via the `common/App.config` file.
+An example config file is included: 
+[`common/App.config_example.txt`](https://github.com/docusign/blog-csharp-order-form/blob/master/common/App.config_example.txt)
 
 **Recommendation:** add `common/App.config` to your `.gitignore` file so your
 private information will not be added to your repository.
