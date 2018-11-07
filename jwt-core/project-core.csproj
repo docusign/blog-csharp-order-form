@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>jwt_core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\common\DSConfig.cs" Link="DSConfig.cs" />
+    <Compile Include="..\common\DSHelper.cs" Link="DSHelper.cs" />
+    <Compile Include="..\common\ExampleBase.cs" Link="ExampleBase.cs" />
+    <Compile Include="..\common\Program.cs" Link="Program.cs" />
+    <Compile Include="..\common\SendEnvelope.cs" Link="SendEnvelope.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\common\App.config" Link="App.config" />
+    <None Include="..\common\Resources\World_Wide_Corp_Battle_Plan_Trafalgar.docx" Link="Resources\World_Wide_Corp_Battle_Plan_Trafalgar.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\common\Resources\World_Wide_Corp_lorem.pdf" Link="Resources\World_Wide_Corp_lorem.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocuSign.eSign.dll" Version="3.1.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
