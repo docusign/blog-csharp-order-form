@@ -32,14 +32,14 @@ gateway service.
    ![Skipping the Stripe account form](Installation/stripe_skip_account_form_link.png)
 1. Next, the Admin Tool will show that an enabled Stripe
    payment gateway account has been associated with your
-   DocuSign demo sandbox account.
+   DocuSign Developer account.
 
 ## Install the DocuSign Template
 This code example sends an envelope using a DocuSign Template.
 To install the template:
 
 1. First add a payment gateway to your account as shown above.
-1. Login to your DocuSign demo sandbox account.
+1. Login to your DocuSign Developer account.
 1. Do **not** go to the Admin Tool. Instead, click `Templates`
    at the top of the screen.
 1. In the **My Templates** screen, click the `New` icon and
